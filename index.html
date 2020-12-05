@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="css/bootstrap.css" rel="stylesheet" type="text/css" media="all">
+    <link href="css/style.css" rel="stylesheet" type="text/css" media="all">
+
+    <title>generated photo</title>
+</head>
+<body >
+    <div class="container">
+        <div class="form-group" id="mainDiv">
+            <h1>Generated photos</h1>
+
+            <label class="lbl">Gender</label>
+          <select class="form-control form-control-sm" id="gender">   
+          <option>male</option>
+            <option>female</option>       
+          </select>
+
+        
+          <label class="lbl">Age</label>
+          <select  class="form-control form-control-sm" id="age" >         
+            <option>infant</option>
+            <option>child</option> 
+            <option>young-adult</option>       
+            <option>adult</option>   
+            <option>elderly</option>       
+          </select>
+
+          <label class="lbl">Emotion</label>
+          <select  class="form-control form-control-sm" id="emotion" >         
+            <option>joy</option>
+            <option>neutral</option> 
+            <option>surprise</option>                 
+          </select>
+
+          <label class="lbl">Eye color</label>
+          <select  class="form-control form-control-sm" id="eye_color" >         
+            <option>brown</option>
+            <option>blue</option> 
+            <option>gray</option>   
+            <option>green</option>                        
+          </select>
+
+          
+          <label class="lbl">Hair color</label>
+          <select  class="form-control form-control-sm" id="hair_color" >     
+            <option>black</option>       
+            <option>brown</option>
+            <option>blond</option> 
+            <option>gray</option>   
+            <option>red</option>                                           
+          </select>
+
+               
+          <label class="lbl">Hair length</label>
+          <select  class="form-control form-control-sm" id="hair_length" >         
+            <option>short</option>
+            <option>medium</option> 
+            <option>long</option>                                            
+          </select>
+
+          <button onclick="generateFace()" class="btn btn-primary my-1">Generate</button>      
+          </div>
+         
+          <img id="face">
+
+</div>
+</body>
+
+<script src="js/api_ai_.js">
+</script>
+</html>

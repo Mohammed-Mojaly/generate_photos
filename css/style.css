@@ -1,0 +1,20 @@
+body{
+   background-color:  #d5d5d5;
+}
+.container{
+    width: 1200px;   
+    margin: auto;
+    background-color: #ffffff;
+}
+#mainDiv{
+    width: 30%;
+    margin-left: 33%;
+}
+.lbl{
+    font-size: 20px;
+}
+
+
+#face{
+    margin-left: 25%;
+}
